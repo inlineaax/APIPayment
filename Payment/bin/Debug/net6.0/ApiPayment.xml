@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ApiPayment</name>
+    </assembly>
+    <members>
+        <member name="M:ApiPayment.Controllers.SaleController.RegisterSale(Application.Models.Sale.SalesData)">
+            <summary>
+            Register a sale
+            </summary>
+            <remarks>
+            Sale must have seller information and at least one item! \
+            \
+            About Seller: \
+            CPF must be 11 numeric characters with no space only \
+            Name must contain only letters and at least 3 characters \
+            Email must contain a valid address \
+            CellPhone must have 11 numeric characters</remarks>
+        </member>
+        <member name="M:ApiPayment.Controllers.SaleController.GetSaleList">
+            <summary>
+            Gets all registered sales
+            </summary>
+        </member>
+        <member name="M:ApiPayment.Controllers.SaleController.GetSale(System.Int32)">
+            <summary>
+            Gets a sale by Id
+            </summary>
+            <remarks>Search by sale Id. To find out a sales Id, first gets for all registered sales!</remarks>
+        </member>
+        <member name="M:ApiPayment.Controllers.SaleController.UpdateSaleStatus(System.Int32,Application.Models.Sale.SaleStatusUpdateData)">
+            <summary>
+            Update a sale Status
+            </summary>
+            <remarks>
+            0 = Awaiting Payment \
+            1 = Payment Approved \
+            2 = Sent To Carrier \
+            3 = Delivered \
+            4 = Canceled
+            
+            The status update must allow only the following transitions: \
+            \
+            From: Awaiting Payment to: PaymentApproved \
+            From: Awaiting Payment to: Canceled \
+            From: PaymentApproved to: Sent To Carrier \
+            From: PaymentApproved to: Canceled \
+            From: Sent To Carrier to: Delivered</remarks> 
+        </member>
+    </members>
+</doc>

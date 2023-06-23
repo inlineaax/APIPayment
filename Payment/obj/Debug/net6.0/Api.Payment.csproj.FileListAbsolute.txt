@@ -1,0 +1,6 @@
+C:\Users\InLine\source\repos\Payment\Payment\obj\Debug\net6.0\Api.Payment.csproj.AssemblyReference.cache
+C:\Users\InLine\source\repos\Payment\Payment\obj\Debug\net6.0\Api.Payment.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\InLine\source\repos\Payment\Payment\obj\Debug\net6.0\Api.Payment.AssemblyInfoInputs.cache
+C:\Users\InLine\source\repos\Payment\Payment\obj\Debug\net6.0\Api.Payment.AssemblyInfo.cs
+C:\Users\InLine\source\repos\Payment\Payment\obj\Debug\net6.0\Api.Payment.csproj.CoreCompileInputs.cache
+C:\Users\InLine\source\repos\Payment\Payment\obj\Debug\net6.0\Api.Payment.MvcApplicationPartsAssemblyInfo.cache
