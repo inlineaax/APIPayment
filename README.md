@@ -2,8 +2,6 @@
 
 Projeto Backend de gerenciamento de Vendas que contém:
 
-+ Login de usuário
-+ Cadastro de usuário
 + Inclusão de Venda
 + Consulta de todas as Vendas
 + Consulta detalhada de uma Venda
